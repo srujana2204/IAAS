@@ -19,3 +19,4 @@ EXPOSE 8080
 
 # Keep container alive with a dummy service or bash
 CMD ["bash"]
+CMD ["tail", "-f", "/dev/null"]
